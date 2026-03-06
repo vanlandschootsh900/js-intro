@@ -1,5 +1,5 @@
-##Shay VanLandchoot
-###Traverse City Cetrel High School
+## Shay VanLandchoot
+### Traverse City Cetrel High School
 ---
 ```css
 {
@@ -12,5 +12,5 @@
 ```
 [JavaScript tutorial](https://www.w3schools.com/js/default.asp)
 
--**It can calculate, manipulate and validate data.**
--*It can update and change both HTML and CSS.*
+- **It can calculate, manipulate and validate data.**
+- *It can update and change both HTML and CSS.*
