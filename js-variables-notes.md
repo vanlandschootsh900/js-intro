@@ -44,7 +44,9 @@ Before we touch the keyboard, I want to see your blueprint. Imagine you are buil
 
 **In plain English (no code yet!), tell me:**
 
-1. Which piece of data about a player would stay the same forever (requiring a "safe"), and which might change as the player plays (requiring a "box")?
+**1. Which piece of data about a player would stay the same forever (requiring a "safe"), and which might change as the player plays (requiring a "box")?
+
+Anwsers here
 
 *The "Box" (Dynamic/Mutable Data)
 This data is stored in a "box" because it is frequently accessed and modified. It needs to be reactive so the UI and game engine can update whenever a value shifts.
@@ -54,7 +56,18 @@ This data is defined once (usually at initialization or character creation) and 
 
 3. If you had to explain the `=` symbol to a non-coder using the analogy of a "bucket" and a "ball," how would you describe it?
 
-*Answer here...*
+Anwsers here
+
+*1. The Bucket (The Variable)
+The "bucket" is a container on your computer's memory. It has a label on the outside so you can find it later (like a bucket labeled PlayerScore or HeroName).
+
+2. The Ball (The Data)
+The "ball" is the actual piece of information—a number, a word, or a true/false value.
+
+3. The = Symbol (The Assignment)
+When you see Score = 10, the = symbol tells the computer:
+
+"Take this ball (the number 10) and drop it into the bucket labeled Score."*
 
 ---
 
