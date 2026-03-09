@@ -90,23 +90,23 @@ PROMPT: Now ask Gemini to give you three examples of JavaScript string variables
 
 ```javascript
 // Write the example code Gemini gives you inside this code block
-//In this analogy, const acts like a "sealed bucket"—once you put the ball in, you aren't allowed to swap it for a different one later.
+In this analogy, const acts like a "sealed bucket"—once you put the ball in, you aren't allowed to swap it for a different one later.
 
-//1. The Player's Name
-//This stores the text entered by a user during character creation.
+1. The Player's Name
+This stores the text entered by a user during character creation.
 
 const playerUserName = "DragonSlayer99";
-//2. A Welcome Message
-//This is a static string used to greet a player when they enter a specific zone.
+2. A Welcome Message
+This is a static string used to greet a player when they enter a specific zone.
 
 JavaScript
 const zoneWelcomeMessage = "Welcome to the Forbidden Forest!";
-//3. A Game Version
-//This identifies the specific build of the software, which shouldn't change while the game is running.
+3. A Game Version
+This identifies the specific build of the software, which shouldn't change while the game is running.
 
 JavaScript
 const currentBuildVersion = "v1.0.4-beta";
-//Why use const and camelCase?
+Why use const and camelCase?
 const (The Lock): It tells the computer that this "bucket" is permanent. If you try to change playerUserName later in your code, the computer will throw an error to protect the data.
 
 camelCase: This is the standard "handwriting" of JavaScript. You start with a lowercase letter and capitalize the start of each new word (like the humps on a camel) to make long names readable without spaces.
