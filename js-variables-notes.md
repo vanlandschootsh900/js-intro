@@ -46,7 +46,11 @@ Before we touch the keyboard, I want to see your blueprint. Imagine you are buil
 
 1. Which piece of data about a player would stay the same forever (requiring a "safe"), and which might change as the player plays (requiring a "box")?
 
-*Answer here...*
+*The "Box" (Dynamic/Mutable Data)
+This data is stored in a "box" because it is frequently accessed and modified. It needs to be reactive so the UI and game engine can update whenever a value shifts.
+The "Safe" (Static/Immutable Data)
+
+This data is defined once (usually at initialization or character creation) and does not change during the standard gameplay loop. Keeping it in a "safe" or read-only container prevents accidental bugs and allows for easier multithreading.*
 
 3. If you had to explain the `=` symbol to a non-coder using the analogy of a "bucket" and a "ball," how would you describe it?
 
